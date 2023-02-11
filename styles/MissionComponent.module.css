@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&family=Arapey:ital@0;1&display=swap');
+
+
+.gridDiv {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    column-gap: 5vw;
+    height: 100vh;
+}
+
+
+/* Element 1 */
+.element1{
+    color: white ;
+    background-color: #10300F !important;
+    padding: 50px;
+}
+
+.element1 > div {
+    text-align: center;
+    color: white;
+}
+
+.element1 > div > hr {
+    background-color: #204C2F !important;
+    height: 2px;
+    border: 0px;
+}
+.ulMenu {
+    list-style-type: none;
+    text-align: left;
+}
+
+.ulMenu > li {
+    padding-top: 30px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+/* Element 2 */
+.element2 {
+    padding: 30px;
+}
+
+.element2 > div > h1 {
+    font-size: 40px;
+}
+
+.quote {
+    /* font-family: 'Alegreya Sans', sans-serif; */
+    font-family: 'Arapey', serif !important;
+    font-style: italic !important;
+    font-size: 18px !important;
+    color: black !important;
+}
+
+.element2 > div > p, .nftUl {
+    font-size: 20px;
+    line-height: 170%;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.nftUl {
+    padding-left: 40px;
+}
+
+
+/* Element 3 */
+
+.element3 {
+    padding: 30px;
+    width: 50%;
+}
+
+.element3 > div {
+    color: white;
+    font-size: 30px;
+}
+
+.roadmapDescription {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.nftUl > li {
+    padding-top: 20px;
+}
+
+.footer {
+    background-color: red;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&family=Arapey:ital@0;1&display=swap');
+
+
+.itemGrid {
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    grid-gap: 20px;
+    width:100%;
+    justify-content: center;
+}
+
+.itemGrid > div {
+    background-color: #FFEFC8;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.itemGrid > div > p {
+    margin: 0px;
+    padding: 10px;
+}
+
+.priceP {
+    float: right;
+}
+
+.nameP {
+    float: left;
+}
+.itemGrid > div > a > img {
+    width: auto;
+    transition: 0.2s ease;
+}
+
+.itemGrid > div > a > img:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+

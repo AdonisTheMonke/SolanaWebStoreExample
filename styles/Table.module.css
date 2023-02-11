@@ -1,0 +1,60 @@
+
+
+table {
+  border-spacing: 0px;
+  caret-color: transparent;
+}
+
+
+th {
+  border-bottom: 2px solid black;
+  font-weight: 500;
+}
+
+td {
+  font-weight: 400;
+  transition: 0.15s;
+}
+
+td:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+.image-container {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+
+
+table > tr > th {
+  border-spacing: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.divvvv > .wallet-adapter-button, .wallet-adapter-button-trigger{
+  background-color: #10300F !important;
+  border-radius: 0px !important;
+  font-size: 20px !important;
+  letter-spacing: 4px !important;
+  font-weight: 400 !important;
+  color: white;
+  height: 62px;
+  width: 236px;
+  cursor: pointer;
+}
+
+
+
+td {
+  cursor: pointer;
+}
+

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&family=Arapey:ital@0;1&display=swap');
+
+.header, .footer {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 100, 0.0);
+    margin-bottom: 15vh;
+    
+    display: grid;
+    grid-template-columns: 250px auto;
+
+}
+
+
+.navigation {
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+
+
+
+.table > thead > tr > th {
+    font-size: 4vw;
+    text-align: center;
+}
+
+
+
+
+.table > tbody > tr > td {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: 0.085em;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.table > thead > tr > th {
+    font-family: 'Arapey', serif;
+
+}
+
+
+
+.table {
+    width: 100%;
+    margin: 0 auto;
+    height: 30vh;
+}
+
+.kurac {
+    display: none;
+    padding: 0px;
+    margin:  0;
+}
+
+
+.kurac > ul {
+    list-style: none;
+    
+}
+
+.wallet {
+    background-color: #10300F;
+    width: 235px;
+    height: 62px;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: 3px; 
+    border: 5px solid #10300F;
+    transition: 0.3s;
+    font-weight: 500;
+
+    float: right;
+}
+
+.wallet:hover {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+
+.table {
+    border-spacing: 0px;
+    caret-color: transparent;
+  }
+  
+  
+/*   th {
+    border-bottom: 2px solid black;
+    font-weight: 500;
+  }
+  
+  td {
+    font-weight: 400;
+    transition: 0.15s;
+  }
+  
+  td:hover {
+    transform: scale(1.1);
+  } */
+  
+  
+  
+  
+  .image-container {
+      width: 250px;
+      height: 250px;
+      position: relative;
+  }
+  
+  
+  
+  .table > tr > th {
+    border-spacing: 0px;
+  }
+  
+
+  
+  
+  .divvvv > .wallet-adapter-button, .wallet-adapter-button-trigger{
+    background-color: #10300F !important;
+    border-radius: 0px !important;
+    font-size: 20px !important;
+    letter-spacing: 4px !important;
+    font-weight: 400 !important;
+    color: white;
+    height: 62px;
+    width: 236px;
+    cursor: pointer;
+  }
+  
+  
+  
+/*   td {
+    cursor: pointer;
+  } */
+  
+  
+
+
+@media screen and (max-width: 800px) {
+
+    .table {
+        display:none;
+    }
+
+
+
+    .kurac {
+        display: block;
+    }
+
+    .navigation {
+        height: auto;
+        margin-top: 10vh;
+    }
+
+    .kurac > ul {
+        text-align: center;
+    }
+
+    .kurac > ul > li {
+        font-family: 'Arapey', serif;
+        font-size: 27px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    
+}

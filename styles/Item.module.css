@@ -1,0 +1,124 @@
+.itemGridContainer {
+    display: grid;
+    grid-template-columns: 550px 350px;
+    justify-content: center;
+    column-gap: 60px;
+}
+
+.itemContainer {
+    width: 100%;
+}
+
+.individualItem > div {
+    background-color: #FFF0C8;
+    text-align: center;
+    height: 400px;
+    padding: 50px;
+}
+
+.individualItem > div > img {
+    max-width: 100%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.nameItemP {
+    float: left;
+    
+}
+
+.priceItemP {
+    float: right;
+}
+
+.nameItemP, .priceItemP {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+}
+
+.descriptionItemP {
+    line-height: 170%;
+}
+
+.paymenentItemDescriptionP {
+    font-family: 'Archivo Narrow';
+    font-weight: bold;
+    line-height: 170%;
+}
+
+.categoryItemP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.calcTable {
+    border-spacing: 0px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.totalTr > td {
+    border-top: 1px solid #C0911D;
+    border-bottom: 1px solid #C0911D;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-weight: bold;
+}
+
+.calcTable > tbody > tr > td {
+    padding: 10px
+}
+
+.calcTable > tbody > tr > td:nth-child(2){
+    color: #A07918;
+}
+
+.selectButton {
+    color: #A07918;
+    height: 50px;
+    width: 49%;
+    border: 1px solid #A07918;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Archivo Narrow';
+
+}
+
+.selectButton:focus {
+    background-color: #A07918;
+    color: white;
+}
+
+.addToCartButton, .buyNowButton {
+    height: 56px;
+    width: 49%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 1px;
+    border: 2px solid #10300F;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s ease;
+
+}
+
+.buyNowButton {
+    margin-left: 2%;
+    background-color: #10300F;
+    color: white !important;
+}
+
+.addToCartButton:hover, .buyNowButton:hover {
+    transform: scale(1.08);
+    transition: 0.1s ease;
+}
+
+.itemContainer > hr {
+    height: 2px;
+    background-color: #C0911D;
+    border: 0px;
+}
+
+.itemContainer > label > p {
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
