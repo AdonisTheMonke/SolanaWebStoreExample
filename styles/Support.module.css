@@ -1,0 +1,66 @@
+
+
+.banner {
+    width: 100vw;
+    background-color: #204C2F;
+    color: white;
+    height: 200px;
+
+}
+
+.banner > div > h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 20px;
+}
+
+.banner > div {
+    display: flex;
+    align-items:center;
+    line-height: 200px;
+    margin-left: 2.5%;
+}
+
+.gridSelector {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.selectionGrid {
+    display: grid;
+    grid-template-columns:  200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 5px;
+    margin: 0 auto;
+}
+
+.selectionGrid > div {
+    background-color: #10300F;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.selectionGrid > div:hover {
+    background-color: transparent;
+    border: 10px solid #10300F;
+    color: #10300F;
+    cursor: pointer;
+}
+
+
+.selectionGrid > div > h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+

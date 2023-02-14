@@ -34,7 +34,15 @@ h1 {
   font-weight: 300;
 }
 
+p {
+  font-family: 'Alegreya Sans', sans-serif;
+  line-height: 170%;
+}
 
 a {
   text-decoration: none;
+}
+
+label {
+  display: block;
 }

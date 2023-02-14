@@ -1,0 +1,66 @@
+.vipDiv {
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15%;
+}
+
+.vipDiv {
+    border-right: 5px solid #204C2F;
+}
+
+.arrowButtonsDiv {
+    float: right;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.arrowButtonsDiv > button {
+    border: 0px;
+    height: 29.14px;
+    width: 26.26px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.arrowButtonsDiv > button:nth-child(1) {
+    background-image: url("/images/button_white.png");
+}
+
+.arrowButtonsDiv > button:nth-child(3) {
+    background-image: url("/images/button_white_upside.png");
+}
+
+.arrowButtonsDiv > button:nth-child(1):hover {
+    background-image: url("/images/button_black_upside.png");
+}
+.arrowButtonsDiv > button:nth-child(3):hover {
+    background-image: url("/images/button_black.png");
+}
+
+.arrowButtonsDiv > h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.vipDiv > div > a {
+    font-weight: bold;
+    font-family: 'Alegreya Sans', sans-serif;
+    float: right;
+    text-decoration: none;
+}
+
+.vipDiv > div > h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    color: #10300F;
+}
+
