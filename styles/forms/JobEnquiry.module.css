@@ -1,0 +1,21 @@
+.jobEnquiryDiv {
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15%;
+}
+
+.jobEnquiryDiv > button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border: 0px;
+    background-color: #10300F;
+    color: white;
+    font-weight: bold;
+    font-family: 'Alegreya Sans', sans-serif;
+    cursor: pointer;
+    margin: auto;
+}

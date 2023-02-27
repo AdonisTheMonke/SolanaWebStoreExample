@@ -1,0 +1,29 @@
+.gridShipping {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: auto;
+    column-gap: 30px;
+}
+
+.gridShipping > div {
+    background-color: white;
+    text-align: center;
+}
+
+.divContents {
+    width: 70%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.priceDiv {
+    background-color: #10300F;
+    height: auto;
+    color: white;
+    align-items: cen;
+    padding: 15px;
+}
+
+.priceDiv > p {
+    margin: 0px;
+}

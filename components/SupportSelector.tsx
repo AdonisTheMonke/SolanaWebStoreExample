@@ -3,10 +3,10 @@ import { useState } from "react"
 
 import Form1 from "./forms/BusinessEnquiry"
 import Form2 from "./forms/VolitaireImprovement"
-import Form3 from "../components/forms/form3"
+import Form3 from "./forms/JobEnquiry"
 import Form4 from "../components/forms/form4"
-import Form5 from "../components/forms/form5"
-import Form6 from "../components/forms/form6"
+import Form5 from "./forms/Shipping"
+import Form6 from "./forms/ReturnsNrefunds"
 
 const SupportSelector = () => {
 
@@ -30,7 +30,7 @@ const SupportSelector = () => {
           componentToRender = <Form3 />;
           break;
         case "Order Problems":
-          componentToRender = <Form4 />;
+          componentToRender = <Form1 />;
           break;
         case "Shipping":
           componentToRender = <Form5 />;

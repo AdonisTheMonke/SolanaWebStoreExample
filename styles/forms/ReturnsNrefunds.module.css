@@ -1,0 +1,28 @@
+.gridRR {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+}
+
+.gridRR > div {
+    background: white;
+    border-bottom: 5px solid #204C2F;
+    padding: 20px;
+}
+
+.refundTopic > h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.refundTopic > a {
+    float: right;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+}
+
+.refundTopic > p {
+    height: 250px;
+}
