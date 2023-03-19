@@ -11,7 +11,7 @@ const ItemBluePrint = () => {
     const { id } = router.query
 
     const mapper = Data.map(el => {
-        return<div>
+        return<div key={el.itemNum}>
             <Link href={`/item/${el.itemNum}`}>
                 <Image
                     src={el.image}
