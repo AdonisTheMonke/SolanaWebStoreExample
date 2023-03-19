@@ -6,7 +6,7 @@ import { useState, useEffect } from "react"
 const Form3 = () => {
 
     useEffect(() => {
-      setUpdatedJobData(prevData => prevData = job_data)
+      setUpdatedJobData((prevData:any) => prevData = job_data)
     }, [])
     
 
@@ -25,7 +25,7 @@ const Form3 = () => {
         </>
     })
 
-    const jobDataMapper = updatedJobData.map( el => {
+    const jobDataMapper = updatedJobData.map( (el:any)  => {
         return <div className={style.jobEnquiryDiv} key={el.title}>
             <div>
                 <h1>{el.title} - {el.location} ({el.duration})</h1>
@@ -57,7 +57,7 @@ const Form3 = () => {
 
         <input placeholder="Enter Job Title" onChange={(e) => {
             const potato = job_data.filter(el => el.title.includes(e.target.value))
-            setUpdatedJobData(prevData => prevData = potato)
+            setUpdatedJobData((prevData:any) => prevData = potato)
             console.log(potato)
         }}></input>
             {/* Add filter / search fucntion - useState + OnChange */}
