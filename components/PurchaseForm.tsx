@@ -6,7 +6,7 @@ const PurchaseForm = (props:any) => {
     const [itemData, setItemData] = useState([])
 
     const paymentForm = itemData.map( el => {
-        return<div className={style.itemContainer}>
+        return<div className={style.itemContainer} key={el.itemNum}>
         <h1>The Test Shirt</h1>
         <p className={style.categoryItemP}>{el.category}</p>
         <p className={style.paymenentItemDescriptionP}>{el.description}</p>

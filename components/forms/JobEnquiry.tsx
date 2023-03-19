@@ -26,7 +26,7 @@ const Form3 = () => {
     })
 
     const jobDataMapper = updatedJobData.map( el => {
-        return <div className={style.jobEnquiryDiv}>
+        return <div className={style.jobEnquiryDiv} key={el.title}>
             <div>
                 <h1>{el.title} - {el.location} ({el.duration})</h1>
                 <p>{el.description}</p>

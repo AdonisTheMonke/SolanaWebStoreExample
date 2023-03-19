@@ -9,7 +9,7 @@ const VolitaireImprovementProtocol = () => {
 
     const vipDataMapper = vip_date.map(el => {
         const sum = el.upvotes - el.downvotes
-        return <div className={style.vipDiv}>
+        return <div className={style.vipDiv} key={el.title}>
             <div>
                 <h1>{el.title}</h1>
                 <p>{el.description}</p>

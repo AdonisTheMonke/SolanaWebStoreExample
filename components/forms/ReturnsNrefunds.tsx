@@ -4,7 +4,7 @@ import data from "../../pages/api/job_enquiry_data"
 const Form6 = () => {
     
     const dataMapper = data.map( el => {
-        return <div className={style.refundTopic}>
+        return <div className={style.refundTopic} key={el.title}>
             <h1>{el.title}</h1>
             <p>{el.description}</p>
             <a>Read Article</a>

@@ -15,7 +15,7 @@ const Item = () => {
     const [filtered, setFiltered] = useState<any>([])
 
     const mapper = filtered.map(el => {
-        return <div className={style.individualItem}>
+        return <div className={style.individualItem} key={el.itemNum}>
 
             <div>
                 <img src={el.image}/>

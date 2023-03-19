@@ -1,4 +1,5 @@
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui"
+import Link from "next/link"
 import style from "../styles/Navigation.module.css"
 
 export default function Navigation(){
@@ -20,8 +21,8 @@ export default function Navigation(){
                 <table className={style.table}>
                     <thead>
                         <tr>
-                            <th><a href="/collection">Collection</a></th>
-                            <th><a href="/mission">About</a></th>
+                            <th><Link href={"/collection"}>Collection</Link></th>
+                            <th><Link href={"/mission"}>About</Link></th>
                             <th>Social</th>
                             <th>Store</th>
                             <th>Connect</th>
