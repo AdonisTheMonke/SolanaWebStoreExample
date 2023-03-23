@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import style from "../../styles/Item.module.css"
 import PurchaseForm from "../../components/PurchaseForm";
 import ConnectHeader from "../../components/ConnectHeader";
+import Image from "next/image";
 
 const Item = () => {
 
@@ -18,7 +19,7 @@ const Item = () => {
         return <div className={style.individualItem} key={el.itemNum}>
 
             <div>
-                <img src={el.image}/>
+                <Image src={el.image} alt={el.name} width={"350"} height={"400"}></Image>
             </div>
 
             <p className={style.nameItemP}>{el.name.toUpperCase()}</p>

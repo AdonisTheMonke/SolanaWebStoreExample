@@ -1,5 +1,6 @@
 import style from "../styles/MissionComponent.module.css"
 import Footer from "./Footer"
+import Image from "next/image"
 
 const MissionComponent = () => {
     return<>
@@ -8,7 +9,12 @@ const MissionComponent = () => {
             <div className={style.element1}>
         
                 <div>
-                    <img src="../images/logo.png"></img>
+                    <Image
+                        src={"/images/logo.png"}
+                        height={180}
+                        width={180}
+                        alt={"Volitaire About Logo"}
+                    ></Image>
                     <hr></hr>
         
                     <ul className={style.ulMenu}>
