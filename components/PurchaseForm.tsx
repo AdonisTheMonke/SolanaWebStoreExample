@@ -60,6 +60,7 @@ const PurchaseForm = (props: PurchaseFormProps) => {
         );
 
         try {
+            setStatus("Transaction pending...");
             const {
                 context: { slot: minContextSlot },
                 value: { blockhash, lastValidBlockHeight }
