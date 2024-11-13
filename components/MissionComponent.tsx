@@ -29,7 +29,7 @@ const MissionComponent = () => {
 
                 <div className={style.element2}>
                     <div>
-                        <h1>Welcome</h1>
+                        <h1 id="mission">Welcome</h1>
                         <p className={style.quote}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             In aliquam erat vitae eros efficitur placerat. Praesent
@@ -38,7 +38,7 @@ const MissionComponent = () => {
                         <p className={style.quote}>&quot;Dare to think for yourself&quot; - Voltaire</p>
                         <hr />
 
-                        <h1>What We Do</h1>
+                        <h1 id="what_we_do">What We Do</h1>
                         <p>
                             We create unique pieces of limited edition fit for the
                             naturally acquisitive, while providing innovative tech
@@ -46,7 +46,7 @@ const MissionComponent = () => {
                         </p>
                         <hr />
 
-                        <h1>Who We Are</h1>
+                        <h1 id="who_we_are">Who We Are</h1>
                         <p>
                             At our core we are a team of creatives with experience in
                             fields ranging from Tailoring and Design to Web Development and
@@ -56,7 +56,7 @@ const MissionComponent = () => {
                         </p>
                         <hr />
 
-                        <h1>How We Do It</h1>
+                        <h1 id="how_we_do_it">How We Do It</h1>
                         <p>
                             We source and handpick our materials in person, in Germany,
                             placing an emphasis on quality and longevity. Working with our
@@ -80,7 +80,7 @@ const MissionComponent = () => {
                         </ul>
                         <hr />
 
-                        <h1>Our People</h1>
+                        <h1 id="our_people">Our People</h1>
                         <ul className={style.nftUl} style={{ listStyle: "none", padding: 0 }}>
                             <li>User 1</li>
                             <li>User 2</li>
@@ -109,7 +109,6 @@ const MissionComponent = () => {
                 </div>
             </div>
 
-            <Footer />
         </>
     );
 };

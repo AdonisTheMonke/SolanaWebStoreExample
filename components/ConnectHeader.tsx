@@ -14,7 +14,7 @@ const ConnectHeader = () => {
     }
 
     return (
-        <div style={{ height: "30vh", position: "relative", display: "flex", justifyContent: "space-between", alignItems: "center", padding: "20px" }}>
+        <div style={{ height: "", position: "relative", display: "flex", justifyContent: "space-between", alignItems: "center", padding: "20px" }}>
             {/* Logo */}
             <div>
                 <Image

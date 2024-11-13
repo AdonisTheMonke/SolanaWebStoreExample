@@ -1,12 +1,12 @@
-import Footer from "../components/Footer"
-import MissionComponent from "../components/MissionComponent"
+import Footer from "../components/Footer";
+import MissionComponent from "../components/MissionComponent";
 
 const Mission = () => {
+    return (
+        <div>
+            <MissionComponent />
+        </div>
+    );
+};
 
-    return 
-    <div>
-            <MissionComponent/>
-    </div>
-}
-
-export default Mission
+export default Mission;

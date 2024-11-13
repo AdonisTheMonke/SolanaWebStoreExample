@@ -14,6 +14,7 @@ import {
 } from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl } from '@solana/web3.js';
 import ConnectHeader from '../components/ConnectHeader';
+import Footer from '../components/Footer';
 
 require('@solana/wallet-adapter-react-ui/styles.css');
 
