@@ -1,9 +1,9 @@
 const Data = [
     {
-        name: "Pullover",
+        name: "USE ME AS TEST TRANSACTION",
         category: "windbreaker",
         available: 5,
-        price: 100,
+        price: 0.5,
         season: "Autumn",
         image: "https://images.stockx.com/images/Yeezy-Gap-Sateen-Anorak-Black.jpg?fit=fill&bg=FFFFFF&w=576&h=384&q=60&dpr=1&trim=color&updated_at=1653661053",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam erat vitae eros efficitur placerat. Praesent eget nisi elit. Pellentesque blandit ultricies nisl at finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.",

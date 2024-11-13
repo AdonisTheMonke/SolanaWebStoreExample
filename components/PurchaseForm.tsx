@@ -46,7 +46,7 @@ const PurchaseForm = (props: PurchaseFormProps) => {
         const recipient = new PublicKey("CRMM97NFpxpbzdwaqUxmxWuKrFaDbgPHZYYnYW3sEYWH");
         
         const productPriceInSol = props.filteredItem[0]?.price / solanaPrice;
-        const inTotalWithShipping = productPriceInSol + (8.69 / solanaPrice);
+        const inTotalWithShipping = productPriceInSol + (1.29 / solanaPrice);
         const productPriceInLamports = Math.round(inTotalWithShipping * 1_000_000_000);
 
         console.log( productPriceInLamports);
@@ -93,7 +93,7 @@ const PurchaseForm = (props: PurchaseFormProps) => {
                     
                     // Calculate initial product price in SOL with shipping
                     const productPriceInSol = props.filteredItem[0].price / solPrice;
-                    const inTotalWithShipping = productPriceInSol + (8.69 / solPrice);
+                    const inTotalWithShipping = productPriceInSol + (1.29 / solPrice);
                     setProductPriceSOL(inTotalWithShipping);
                 })
                 .catch((error) => {
@@ -134,8 +134,8 @@ const PurchaseForm = (props: PurchaseFormProps) => {
                 <tbody>
                     <tr>
                         <td>Shipping Cost:</td>
-                        <td>$8.69</td>
-                        <td>{(8.69 / solanaPrice).toFixed(4)} SOL</td>
+                        <td>$1.29</td>
+                        <td>{(1.29 / solanaPrice).toFixed(4)} SOL</td>
                     </tr>
                     <tr>
                         <td>Item Cost:</td>
@@ -144,7 +144,7 @@ const PurchaseForm = (props: PurchaseFormProps) => {
                     </tr>
                     <tr className={style.totalTr}>
                         <td>Total:</td>
-                        <td>${el.price + 8.69}</td>
+                        <td>${el.price + 1.29}</td>
                         <td>{productPriceSOL.toFixed(4)} SOL</td>
                     </tr>
                 </tbody>
