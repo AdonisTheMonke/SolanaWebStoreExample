@@ -3,7 +3,8 @@ import MissionComponent from "../components/MissionComponent"
 
 const Mission = () => {
 
-    return <div>
+    return 
+    <div>
             <MissionComponent/>
     </div>
 }

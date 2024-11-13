@@ -17,9 +17,7 @@ const Support = () => {
                 </div>
             </div>
 
-        <div className="wrapper">
             <SupportSelector/>
-        </div>
 
     </div>
 }

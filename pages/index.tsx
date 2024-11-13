@@ -9,10 +9,7 @@ export default function Home() {
         <title>Volitaire 2.0</title>
       </Head>
 
-      <div className='wrapper'>
-        <ConnectHeader/>
         <Navigation></Navigation>
-      </div>
     </>
   )
 }

@@ -15,24 +15,31 @@ import {
 import { clusterApiUrl } from '@solana/web3.js';
 import ConnectHeader from '../components/ConnectHeader';
 
+require('@solana/wallet-adapter-react-ui/styles.css');
+
 export default function App({ Component, pageProps }: AppProps) {
 
-  const network = WalletAdapterNetwork.Mainnet;
-  const wallets = useMemo(
-      () => [
-          new PhantomWalletAdapter
-      ],
-      [network]
-  );
+    const network = WalletAdapterNetwork.Mainnet;
 
-  const rpcNodeLink = "https://lively-tiniest-fog.solana-mainnet.discover.quiknode.pro/cac8b76a50c63b1771432eccfb83133f56c70716/"
+    const endpoint = useMemo(() => clusterApiUrl(network), [network]);
+
+    const wallets = useMemo(
+        () => [
+            new PhantomWalletAdapter(),
+        ],
+        []
+    );
 
   return(
-        <ConnectionProvider endpoint={rpcNodeLink}>
+        <ConnectionProvider endpoint={"https://snowy-frequent-flower.solana-mainnet.quiknode.pro/fdabe801d7b055964836a536f10950f98d975f30"}>
         <WalletProvider wallets={wallets} autoConnect>
             <WalletModalProvider>
-                
-                <Component {...pageProps} />
+
+                <div className="wrapper">
+                    <ConnectHeader/>
+                    <Component {...pageProps} />
+                </div>
+
                 
             </WalletModalProvider>
         </WalletProvider>
