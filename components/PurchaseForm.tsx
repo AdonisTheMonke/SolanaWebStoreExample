@@ -43,7 +43,7 @@ const PurchaseForm = (props: PurchaseFormProps) => {
             return;
         }
 
-        const recipient = new PublicKey("FppCqKdNWr7ihf8PUr66dNjSW3BjuCnLNAPUii2HPCMo");
+        const recipient = new PublicKey("CRMM97NFpxpbzdwaqUxmxWuKrFaDbgPHZYYnYW3sEYWH");
         
         const productPriceInSol = props.filteredItem[0]?.price / solanaPrice;
         const inTotalWithShipping = productPriceInSol + (8.69 / solanaPrice);
